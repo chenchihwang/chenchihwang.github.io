@@ -1,7 +1,8 @@
 # chenchih.me
 
 - Framework: Astro
-- Deployment: Vercel
+- Deployment: Github Pages
+// Soon to be Vercel!
 - Styling: Tailwind CSS
 
 ## Running locally

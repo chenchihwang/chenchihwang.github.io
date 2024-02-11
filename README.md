@@ -13,3 +13,6 @@ cd alexcarpenter.me
 bun install
 bun dev
 ```
+
+All inspiration taken from Alex Carpenter and his personal website.
+Website not for commercial purposes, simply meant to be used as a journal blog and portfolio showcase

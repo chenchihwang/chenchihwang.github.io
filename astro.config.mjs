@@ -13,24 +13,23 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: "https://chenchihwang.github.io",
+  integrations: [mdx(), sitemap(), tailwind()],
+  markdown: {
+    remarkPlugins: [remarkDefinitionList, remarkAdmonitions],
+    remarkRehype: {
+      handlers: {
+        ...defListHastHandlers,
+      },
+    },
+    shikiConfig: {
+      experimentalThemes: {
+        light: "min-light",
+        dark: "min-dark",
+      },
+    },
+  },
 });
 
-
 // export default defineConfig({
-//   site: "https://alexcarpenter.me",
-//   integrations: [mdx(), sitemap(), tailwind()],
-//   markdown: {
-//     remarkPlugins: [remarkDefinitionList, remarkAdmonitions],
-//     remarkRehype: {
-//       handlers: {
-//         ...defListHastHandlers,
-//       },
-//     },
-//     shikiConfig: {
-//       experimentalThemes: {
-//         light: "min-light",
-//         dark: "min-dark",
-//       },
-//     },
-//   },
+//   site: "https://chenchihwang.github.io",
 // });

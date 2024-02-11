@@ -10,5 +10,5 @@
 git clone https://github.com/alexcarpenter/alexcarpenter.me.git
 cd alexcarpenter.me
 bun install
-npm run dev
+bun dev
 ```

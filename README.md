@@ -1,4 +1,4 @@
-# alexcarpenter.me
+# chenchih.me
 
 - Framework: Astro
 - Deployment: Vercel
@@ -10,5 +10,5 @@
 git clone https://github.com/alexcarpenter/alexcarpenter.me.git
 cd alexcarpenter.me
 bun install
-bun dev
+npm run dev
 ```

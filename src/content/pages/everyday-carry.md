@@ -3,6 +3,7 @@ title: Everyday carry
 description: What I carry with me on a daily occurrence
 published: 2023-10-11
 updated: 2024-01-03
+draft: true
 ---
 
 Knife

@@ -1,48 +1,35 @@
 ---
 title: About
-description: Husband, father, web engineer and serial hobbyist
+description: AI/ML enthusiast, Cyclist, Dreamer, and now blogger I guess ...
 published: 2023-07-22
-updated: 2024-01-21
+updated: 2024-02-17
 pinned: true
 ---
 
-![Family portrait of myself with my son and wife](/img/family.webp)
+![Portrait of myself](/img/myself.webp)
 
 - Location
-  - born in Grand Rapids, MI.
-  - grew up in Lowell, MI.
-  - currently living in Wyoming, MI.
-- Family
-  - married to [Stacey](/stacey)
-  - dad to [Micah](/micah)
-  - honorary dad to our dog [Frankie](/frankie)
+  - Born and raised in Northern VA
+  - Currently studying in Pittsburgh
 - [Work](/cv)
-  - UI Engineer at [Clerk](https://clerk.com)
+  - Intern at [Amazon](https://amazon.com)
   - previously
-    - Watershed
-    - HashiCorp
-    - NationBuilder
-- Fan of
-  - lists
-  - [personal websites](/personal-websites)
-  - [gear/tools](/favorites)
-  - [coffee](/coffee)
-  - [tiny desk concerts](/tiny-desk-concerts)
+    - Code Sensei at Code Ninjas
 - Hobbies
-  - golf
-  - pickleball
-  - disc golf
-  - smoking meats (insert Zuckerberg meme here)
-- Top bookmarks
-  - [github.com](https://github.com/)
-  - [siteinspire.com](https://siteinspire.com/)
-  - [youtube.com](https://www.youtube.com/)
-- Top apps
-  - VS Code
-  - iTerm2
-  - Apple Notes
+  - Nature
+    - Cycling + Hiking + Rowing 
+  - Traveling 
+    - Been to:
+      - Japan + Taiwan
+    - On the list:
+      - (South) Korea, China
+      - Thailand, Cambodia, Malaysia, Vietnam, Singapore, Sri Lanka
+      - UK, Ireland, Norway, Sweden, Finland, Denmark, Germany, Netherlands, Belgium, France, Switzerland, Monaco, Andorra, Spain, Portugal
+      - Canada, Australia
+  - Chess
+  - Meeting new people
+  - Taking naps !! 
 - Connect
-  - [email](mailto:alexscarpenter@protonmail.com)
-  - [Twitter](https://twitter.com/hybrid_alex)
-  - [GitHub](https://github.com/alexcarpenter)
-  - [LinkedIn](https://www.linkedin.com/in/imalexcarpenter/)
+  - [E-Mail](mailto:chentreehwang@gmail.com)
+  - [GitHub](https://github.com/chenchihwang)
+  - [LinkedIn](https://www.linkedin.com/in/chen-chi-hwang/)

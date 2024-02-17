@@ -31,5 +31,6 @@ pinned: true
   - Taking naps !! 
 - Connect
   - [E-Mail](mailto:chentreehwang@gmail.com)
+  - [Instagram](https://www.instagram.com/chen.chi.hwang/)
   - [GitHub](https://github.com/chenchihwang)
   - [LinkedIn](https://www.linkedin.com/in/chen-chi-hwang/)

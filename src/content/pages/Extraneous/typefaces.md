@@ -3,6 +3,7 @@ title: Typefaces
 description: Collection of my favorites typefaces
 published: 2023-08-02
 updated: 2024-01-09
+draft: true
 ---
 
 ## Monospace

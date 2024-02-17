@@ -2,6 +2,7 @@
 title: TypeScript snippets
 description: Collection of useful TypeScript snippets
 published: 2024-01-26
+draft: true
 ---
 
 ## Array subset type

@@ -2,6 +2,7 @@
 title: One bag travel
 description: One bag loadout for three day work trip
 published: 2023-12-03
+draft: true
 ---
 
 Bag

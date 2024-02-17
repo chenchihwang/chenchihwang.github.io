@@ -2,6 +2,7 @@
 title: CSS snippets
 description: Collection of useful CSS code snippets
 published: 2024-01-26
+draft: true
 ---
 
 ## Dotted background

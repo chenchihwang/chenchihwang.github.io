@@ -3,6 +3,7 @@ title: Uses
 description: The software and harware I use daily as a web engineer
 published: 2023-07-24
 updated: 2024-01-19
+draft: true
 ---
 
 ## Software

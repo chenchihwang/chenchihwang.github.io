@@ -3,6 +3,7 @@ title: Privacy
 description: Staying safe online
 published: 2023-11-29
 updated: 2024-01-01
+draft: true
 ---
 
 - Browser: Firefox

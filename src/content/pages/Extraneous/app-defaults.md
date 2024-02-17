@@ -3,6 +3,7 @@ title: App defaults
 description: List of app defaults I am currently using
 published: 2023-11-28
 updated: 2024-01-22
+draft: true
 ---
 
 Following the [trend](https://defaults.rknight.me/) and sharing my "app defaults".

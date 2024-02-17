@@ -2,6 +2,7 @@
 title: Ice Barrel 400 review
 description: My thoughts on using the Ice Barrel for daily cold plunges
 published: 2023-07-27
+draft: true
 ---
 
 ![Ice barrel 400 on my back deck](/img/ice-barrel-400.webp)

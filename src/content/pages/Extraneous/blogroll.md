@@ -3,6 +3,7 @@ title: Blogroll
 description: Personal blogs I enjoy following
 published: 2023-12-14
 updated: 2024-01-29
+draft: true
 ---
 
 - [baty.net](https://baty.net/)

@@ -13,8 +13,8 @@ pinned: true
   - Currently studying in Pittsburgh
 - [Work](/cv)
   - Intern at [Amazon](https://amazon.com)
-  - previously
-    - Code Sensei at Code Ninjas
+  - Previously: 
+    - Code Sensei at [Code Ninjas](https://www.codeninjas.com/)
 - Hobbies
   - Nature
     - Cycling + Hiking + Rowing 

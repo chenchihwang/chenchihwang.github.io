@@ -2,6 +2,7 @@
 title: Timeline
 description: Non-exhaustive list of key life and work events
 published: 2024-01-07
+draft: true
 ---
 
 | Date                    | Description                                                                                 | Type |

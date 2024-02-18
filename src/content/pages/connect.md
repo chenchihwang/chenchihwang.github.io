@@ -6,25 +6,13 @@ updated: 2024-01-22
 ---
 
 Email
-: alexscarpenter@protonmail.com
-
-Twitter
-: [hybrid_alex](https://twitter.com/hybrid_alex)
+: chentreehwang@gmail.com
 
 GitHub
-: [alexcarpenter](https://github.com/alexcarpenter)
+: [chenchihwang](https://github.com/chenchihwang)
 
 LinkedIn
-: [alexcarpenter](https://www.linkedin.com/in/imalexcarpenter/)
+: [chenchihwang](https://www.linkedin.com/in/chen-chi-hwang/)
 
-Posts.cv
-: [alexcarpenter](https://posts.cv/alexcarpenter)
-
-Read.cv
-: [alexcarpenter](https://read.cv/alexcarpenter)
-
-Mastadon
-: [alexcarpenter](https://mastodon.social/@alexcarpenter)
-
-Bluesky
-: [alexcarpenter.me](https://bsky.app/profile/alexcarpenter.me)
+Instagram
+: [chenchihwang](https://www.instagram.com/chen.chi.hwang/)

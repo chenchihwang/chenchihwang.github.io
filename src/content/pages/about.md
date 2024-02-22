@@ -15,6 +15,11 @@ pinned: true
   - Intern at [Amazon](https://amazon.com)
   - Previously: 
     - Code Sensei at [Code Ninjas](https://www.codeninjas.com/)
+- Social Good
+  - Strongly interested in these SDG's 
+    - 2 : End hunger, achieve food security and improved nutrition and promote sustainable agriculture
+    - 4 : Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all
+    - 10 :  Reduce inequality within and among countries
 - Hobbies
   - Nature
     - Cycling + Hiking + Rowing 

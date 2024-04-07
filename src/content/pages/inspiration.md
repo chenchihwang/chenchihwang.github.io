@@ -12,3 +12,4 @@ updated: 2024-01-21
 ## People
 
 - [Po Shen Loh](https://www.poshenloh.com/)
+- [Vaclav Smil](https://vaclavsmil.com/)

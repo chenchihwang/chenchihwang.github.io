@@ -6,22 +6,80 @@ updated: 2024-03-7
 pinned: true
 ---
 
-	1. TODAY 
-21. daily review 
-25. 15213
-	1. written number 6
-	2. malloc lab
-26. 15150
-	1. written
-	2. lab
-24.  try to get studying on matrices
-23. personal work on the website 
-	1. CV
-	2. timeline 
+*local travel plans*
+north
+- lake tahoe
+- muir woods
+east
+- pillar point harbor
+	- cool ass fish market ?
+- Filoli Historic House & Garden
+	- DATE ANGLE FS FS!!
+- half moon bay 
 
-22. wait on housing
-	1. anthony needs to email me back with correct link - if he doesnt, ill call him tmrw 
-23. 
+*daily grind plans*
+coding study
+	- ask manager about what i need to grind on specifically
+		- most likely:
+			- github
+			- java prolly
+				- api calls
+					- to access bedrock
+			- bedrock 
+				- cloud practitioner good place to start
+				- make project with amazon bedrock
+					- agents in the context of amzn bedrock
+				- get comfortable with AWS 
+			- AGENTS AGENTS AGENTS 
+			- AWS lambda ?
+	- aws certification (prct) cert
+		- https://aws.amazon.com/certification/certified-cloud-practitioner/
+	- grind leetcode ?
+	- SDE fundamentals
+	- ML shit after -
+		- aws certification (ml one)
+		- andrew ng course?
+		- build llm, host on aws, host on a webserver
+biking
+- transportation
+- cardio
+- leisure
+cooking
+- out of necessity 🤣
+[[fighting]]
+- KOA gym fs fs
+read
+- The Cold Start Problem: How to Start and Scale Network Effects
+- Numbers Don't Lie: 71 Stories to Help Us Understand the Modern World
+- How the World Really Works: A Scientist's Guide to Our Past, Present and Future
+- The Catalyst: How to Change Anyone's Mind
+- The Daily Laws: 366 Meditations on Power, Seduction, Mastery, Strategy and Human Nature
+- Deep Learning (Adaptive Computation and Machine Learning series)
+- Code: The Hidden Language of Computer Hardware and Software
+skincare
+- idk salysilic acid or whatever ?
+school grind
+- community college 21-259 learn multivar over the summer and get credit
+	- if im allowed to ? 
+[[financials]]
+
+
+
+*less consistent one off to do's*
+- linkedin spruce up
+- resume grind
+	- actual paper resume
+- find cologne i like
+	- armani yulong cologne
+- find fire casio watch?
+	- AQ-230
+	- https://www.casio.com/intl/watches/casio/product.AQ-230A-7DMQ/
+	- https://us.firstclasswatches.com/casio-vintage-dual-display-298mm-white-dial-stainless-steel-aq-230a-7dmqyes-p-120392/
+		- not sure if legit tho 
+- get gifts for friends
+- website grind
+	- spruce up resume on personal website as well
+	- make / find api so that journal entries are easier to upload
 
 ---
 

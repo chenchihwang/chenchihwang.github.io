@@ -5,7 +5,7 @@ updated: 2023-09-22
 ---
 
 2023
-: [chenchihwang.github.io](https://chenchihwang.github.io) - Personal website used for journalling and blogging!
+: [chenchih.tech](https://www.chenchi.tech) - Personal website used for journalling and blogging!
 
 2023
 : [Tartan Space](https://github.com/justinwangx/tartanspace) - A hackathon project meant to connect people through visual tools and AI.

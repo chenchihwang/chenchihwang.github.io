@@ -19,19 +19,6 @@ east
 
 *daily grind plans*
 coding study
-	- ask manager about what i need to grind on specifically
-		- most likely:
-			- github
-			- java prolly
-				- api calls
-					- to access bedrock
-			- bedrock 
-				- cloud practitioner good place to start
-				- make project with amazon bedrock
-					- agents in the context of amzn bedrock
-				- get comfortable with AWS 
-			- AGENTS AGENTS AGENTS 
-			- AWS lambda ?
 	- aws certification (prct) cert
 		- https://aws.amazon.com/certification/certified-cloud-practitioner/
 	- grind leetcode ?
@@ -62,8 +49,6 @@ school grind
 - community college 21-259 learn multivar over the summer and get credit
 	- if im allowed to ? 
 [[financials]]
-
-
 
 *less consistent one off to do's*
 - linkedin spruce up

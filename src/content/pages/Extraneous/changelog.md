@@ -3,6 +3,7 @@ title: Changelog
 description: Notable changes across chenchihwang.github.io
 published: 2023-09-08
 updated: 2024-01-25
+draft: true
 ---
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/). View source on [Github](https://github.com/chenchihwang/chenchihwang.github.io).

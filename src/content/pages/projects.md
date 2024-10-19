@@ -1,11 +1,11 @@
 ---
 title: Projects
 published: 2023-08-23
-updated: 2023-09-22
+updated: 2023-10-14
 ---
 
 2024
-: [secureAI] - Developed novel solution to prevent adversarial string jailbreaking attacks for a hackathon.
+: [secureAI](https://devpost.com/software/secureai-3xu8p4) - Developed novel solution to prevent adversarial string jailbreaking attacks for a hackathon.
 
 2023
 : [chenchih.tech](https://www.chenchi.tech) - Personal website used for journalling and blogging!

@@ -4,6 +4,7 @@ description: a confession...
 published: 2023-11-28
 updated: 2023-11-28
 pinned: true
+draft: true
 ---
 
 ive been going through a lot of thoughts. been going through a slump. as i write this I think i understand more and more why.

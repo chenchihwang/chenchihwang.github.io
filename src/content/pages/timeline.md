@@ -2,6 +2,7 @@
 title: Timeline
 description: Non-exhaustive list of key life, study, and work events
 published: 2024-03-07
+updated: 2025-05-05
 ---
 
 | Date                    | Description                                                                                 | Type |

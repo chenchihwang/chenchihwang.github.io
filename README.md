@@ -1,4 +1,4 @@
-# chenchih.me
+# chenchih.blog
 
 - Framework: Astro
 - Deployment: Github Pages

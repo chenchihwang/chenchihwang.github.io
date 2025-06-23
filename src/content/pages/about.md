@@ -1,8 +1,8 @@
 ---
 title: About
-description: AI/ML enthusiast, Cyclist, Dreamer, and now blogger I guess ...
+description: AI/ML enthusiast, Dreamer, and now blogger I guess ...
 published: 2023-07-22
-updated: 2024-02-17
+updated: 2025-06-22
 pinned: true
 ---
 
@@ -12,8 +12,9 @@ pinned: true
   - Born and raised in Northern VA
   - Currently studying in Pittsburgh
 - [Work](/cv)
-  - Intern at [Amazon](https://amazon.com)
+  - Intern at [Amazon](https://aws.amazon.com/lake-formation/) 2025
   - Previously: 
+    - Intern at [Amazon](https://aws.amazon.com/lake-formation/) 2024
     - Code Sensei at [Code Ninjas](https://www.codeninjas.com/)
 - Social Good
   - Strongly interested in these SDG's 
@@ -23,6 +24,7 @@ pinned: true
 - Hobbies
   - Nature
     - Cycling + Hiking + Rowing 
+  - MMA
   - Traveling 
     - Been to:
       - Japan + Taiwan

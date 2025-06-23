@@ -5,5 +5,6 @@ updated: 2024-01-01
 ---
 
 - [ ] become a GOAT
+- [ ] collect maximal aura 
 - [ ] find a woman ...
 - [x] put fries in the bag

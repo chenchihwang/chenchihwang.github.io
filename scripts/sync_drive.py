@@ -49,8 +49,18 @@ def lint_journal_md(md_content):
         print("No content after '# journal', skipping lint.")
         return None
     # Compose linted content
-    linted = meta.strip() + '\n\n' + md_content[after_journal+1:].lstrip()
+    body = md_content[after_journal+1:].lstrip()
+    linted = meta.strip() + '\n\n' + body
     return linted
+
+def is_blank_journal(linted_content):
+    # Remove metadata block
+    parts = linted_content.split('---', 2)
+    if len(parts) < 3:
+        return True
+    body = parts[2].strip()
+    # Check if body is empty or only whitespace/newlines
+    return len(body.strip()) == 0
 
 def sync_journal_entries():
     service = get_google_drive_service()
@@ -76,6 +86,13 @@ def sync_journal_entries():
         linted_content = lint_journal_md(content)
         if not linted_content:
             print(f"Skipping {filename} due to linting error.")
+            continue
+        if is_blank_journal(linted_content):
+            print(f"{filename} is blank after linting. Removing from notes.")
+            if os.path.exists(local_path):
+                os.remove(local_path)
+                print(f"Deleted {filename} from notes.")
+                changes_made = True
             continue
         # Only update if changed or new
         if os.path.exists(local_path):

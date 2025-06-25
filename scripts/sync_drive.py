@@ -6,6 +6,7 @@ from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
 import io
+import re
 
 def get_google_drive_service():
     service_account_info = json.loads(
@@ -30,6 +31,27 @@ def download_file(service, file_id, filename):
         print(f"Error downloading file {filename}: {e}")
         return None
 
+def lint_journal_md(md_content):
+    # Extract the metadata block
+    meta_match = re.match(r'(?s)^---.*?---', md_content)
+    if not meta_match:
+        print("No metadata block found, skipping lint.")
+        return None
+    meta = meta_match.group(0)
+    # Find the first '# journal' header
+    journal_idx = md_content.lower().find('# journal')
+    if journal_idx == -1:
+        print("No '# journal' header found, skipping lint.")
+        return None
+    # Find the start of the line after '# journal'
+    after_journal = md_content.find('\n', journal_idx)
+    if after_journal == -1:
+        print("No content after '# journal', skipping lint.")
+        return None
+    # Compose linted content
+    linted = meta.strip() + '\n\n' + md_content[after_journal+1:].lstrip()
+    return linted
+
 def sync_journal_entries():
     service = get_google_drive_service()
     folder_id = os.environ['GOOGLE_DRIVE_FOLDER_ID']
@@ -48,19 +70,26 @@ def sync_journal_entries():
             continue
         local_path = f"src/content/notes/{filename}"
         drive_mtime = datetime.fromisoformat(file['modifiedTime'].replace('Z', '+00:00')).timestamp()
+        content = download_file(service, file_id, filename)
+        if not content:
+            continue
+        linted_content = lint_journal_md(content)
+        if not linted_content:
+            print(f"Skipping {filename} due to linting error.")
+            continue
+        # Only update if changed or new
         if os.path.exists(local_path):
-            local_mtime = os.path.getmtime(local_path)
-            if drive_mtime <= local_mtime:
+            with open(local_path, 'r', encoding='utf-8') as f:
+                local_content = f.read()
+            if local_content == linted_content:
                 print(f"Skipping {filename} - local version is up to date")
                 continue
-        content = download_file(service, file_id, filename)
-        if content:
-            os.makedirs("src/content/notes", exist_ok=True)
-            with open(local_path, 'w', encoding='utf-8') as f:
-                f.write(content)
-            os.utime(local_path, (drive_mtime, drive_mtime))
-            print(f"Updated {filename}")
-            changes_made = True
+        os.makedirs("src/content/notes", exist_ok=True)
+        with open(local_path, 'w', encoding='utf-8') as f:
+            f.write(linted_content)
+        os.utime(local_path, (drive_mtime, drive_mtime))
+        print(f"Updated {filename} (linted)")
+        changes_made = True
     return changes_made
 
 if __name__ == "__main__":

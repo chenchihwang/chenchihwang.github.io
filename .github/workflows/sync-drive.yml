@@ -1,0 +1,40 @@
+name: Sync Google Drive Journal Entries
+
+on:
+  schedule:
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/sync-drive.yml'
+      - 'scripts/sync_drive.py'
+
+jobs:
+  sync-content:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install Google Drive API dependencies
+        run: |
+          pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
+      - name: Sync Google Drive content
+        env:
+          GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
+          GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+        run: |
+          python scripts/sync_drive.py
+      - name: Commit and push changes
+        if: success()
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add src/content/notes/
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-sync journal entries from Google Drive [skip ci]"
+          git push 

@@ -5,7 +5,7 @@ updated: 2025-06-22
 ---
 
 2025
-: [Multilingual spoken dialogue system](https://github.com/chenchihwang/SDS) - Designed a cascaded multilingual SDS from scratch; Robust and reactive to language alternation mid-use.
+: [Multilingual spoken dialogue system](https://github.com/chenchihwang/SDS) - Designed a cascaded multilingual SDS from scratch; 80-92% more robust and reactive to language alternation mid-use on eng-jp datasets.
 
 2025
 : [NN from first principles](https://github.com/chenchihwang/MNIST/tree/main/kaggle/two-layer) - Developed a neural net solving the MNIST problem entirely from scratch using NumPy. Achieved 86.4% accuracy.

@@ -24,7 +24,6 @@ const sortByDate = (a: any, b: any) => {
   <main id="main">
     <section>
       <h2 class="mb-2 font-bold">Blog</h2>
-      <h2 class="mb-2 font-bold">Blog</h2>
       <ul class="-mb-2 divide-y divide-dashed border-t-2">
         <li class="flex gap-6 py-2">
           <FormattedDate
@@ -37,31 +36,7 @@ const sortByDate = (a: any, b: any) => {
           blogPages
             .sort(sortByDate)
             .map((page) => {
-          blogPages
-            .sort(sortByDate)
-            .map((page) => {
               return (
-                <li class="flex gap-6 py-2">
-                  <FormattedDate
-                    date={page.data.updated || page.data.published}
-                    class="flex-shrink-0 text-secondary"
-                  />
-                  <a href={page.slug} class="underline">
-                    {page.data.title}
-                  </a>
-                </li>
-              );
-            })
-        }
-      </ul>
-    </section>
-
-    <section class="mt-6">
-      <h2 class="mb-2 font-bold">Writing</h2>
-      <ul class="-mb-2 divide-y divide-dashed border-t-2">
-        {
-          writingPages
-            .sort(sortByDate)
                 <li class="flex gap-6 py-2">
                   <FormattedDate
                     date={page.data.updated || page.data.published}
@@ -102,12 +77,8 @@ const sortByDate = (a: any, b: any) => {
 
     <section class="mt-6">
       <h2 class="mb-2 font-bold">Work</h2>
-      <h2 class="mb-2 font-bold">Work</h2>
       <ul class="-mb-2 divide-y divide-dashed border-t-2">
         {
-          workPages
-            .sort(sortByDate)
-            .map((page) => {
           workPages
             .sort(sortByDate)
             .map((page) => {
@@ -121,27 +92,8 @@ const sortByDate = (a: any, b: any) => {
                     {page.data.title}
                   </a>
                 </li>
-                <li class="flex gap-6 py-2">
-                  <FormattedDate
-                    date={page.data.updated || page.data.published}
-                    class="flex-shrink-0 text-secondary"
-                  />
-                  <a href={page.slug} class="underline">
-                    {page.data.title}
-                  </a>
-                </li>
               );
             })
-        }
-      </ul>
-    </section>
-
-    <section class="mt-6">
-      <h2 class="mb-2 font-bold">Miscellaneous</h2>
-      <ul class="-mb-2 divide-y divide-dashed border-t-2">
-        {
-          miscPages
-            .sort(sortByDate)
         }
       </ul>
     </section>

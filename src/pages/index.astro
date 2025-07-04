@@ -5,12 +5,25 @@ import { getCollection } from "astro:content";
 const pages = await getCollection("pages", ({ data }) => {
   return import.meta.env.PROD ? data.draft !== true : true;
 });
+
+// Filter pages into different sections
+const blogPages = pages.filter((page) => page.data.pinned && !["cv", "projects", "exploration"].includes(page.slug));
+const writingPages = pages.filter((page) => ["exploration"].includes(page.slug));
+const workPages = pages.filter((page) => ["cv", "projects"].includes(page.slug));
+const miscPages = pages.filter((page) => !page.data.pinned && !["cv", "projects", "exploration"].includes(page.slug));
+
+// Sort functions
+const sortByDate = (a, b) => {
+  const aDate = a.data.updated || a.data.published;
+  const bDate = b.data.updated || b.data.published;
+  return Date.parse(bDate.toString()) - Date.parse(aDate.toString());
+};
 ---
 
 <BaseLayout>
   <main id="main">
     <section>
-      <h2 class="mb-2 font-bold">Pinned</h2>
+      <h2 class="mb-2 font-bold">Blog</h2>
       <ul class="-mb-2 divide-y divide-dashed border-t-2">
         <li class="flex gap-6 py-2">
           <FormattedDate
@@ -20,15 +33,8 @@ const pages = await getCollection("pages", ({ data }) => {
           <a href="/notes" class="underline"> Journal </a>
         </li>
         {
-          pages
-            .filter((page) => page.data.pinned)
-            .sort((a, b) => {
-              const aDate = a.data.updated || a.data.published;
-              const bDate = b.data.updated || b.data.published;
-              return (
-                Date.parse(bDate.toString()) - Date.parse(aDate.toString())
-              );
-            })
+          blogPages
+            .sort(sortByDate)
             .map((page) => {
               return (
                 <li class="flex gap-6 py-2">
@@ -47,18 +53,57 @@ const pages = await getCollection("pages", ({ data }) => {
     </section>
 
     <section class="mt-6">
-      <h2 class="mb-2 font-bold">Latest</h2>
+      <h2 class="mb-2 font-bold">Writing</h2>
       <ul class="-mb-2 divide-y divide-dashed border-t-2">
         {
-          pages
-            .filter((page) => !page.data.pinned)
-            .sort((a, b) => {
-              const aDate = a.data.updated || a.data.published;
-              const bDate = b.data.updated || b.data.published;
+          writingPages
+            .sort(sortByDate)
+            .map((page) => {
               return (
-                Date.parse(bDate.toString()) - Date.parse(aDate.toString())
+                <li class="flex gap-6 py-2">
+                  <FormattedDate
+                    date={page.data.updated || page.data.published}
+                    class="flex-shrink-0 text-secondary"
+                  />
+                  <a href={page.slug} class="underline">
+                    {page.data.title}
+                  </a>
+                </li>
               );
             })
+        }
+      </ul>
+    </section>
+
+    <section class="mt-6">
+      <h2 class="mb-2 font-bold">Work</h2>
+      <ul class="-mb-2 divide-y divide-dashed border-t-2">
+        {
+          workPages
+            .sort(sortByDate)
+            .map((page) => {
+              return (
+                <li class="flex gap-6 py-2">
+                  <FormattedDate
+                    date={page.data.updated || page.data.published}
+                    class="flex-shrink-0 text-secondary"
+                  />
+                  <a href={page.slug} class="underline">
+                    {page.data.title}
+                  </a>
+                </li>
+              );
+            })
+        }
+      </ul>
+    </section>
+
+    <section class="mt-6">
+      <h2 class="mb-2 font-bold">Miscellaneous</h2>
+      <ul class="-mb-2 divide-y divide-dashed border-t-2">
+        {
+          miscPages
+            .sort(sortByDate)
             .map((page) => {
               return (
                 <li class="flex gap-6 py-2">

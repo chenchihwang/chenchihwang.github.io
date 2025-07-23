@@ -10,7 +10,7 @@ const pages = await getCollection("pages", ({ data }) => {
 const blogPages = pages.filter((page) => page.data.pinned && !["cv", "projects", "exploration"].includes(page.slug));
 const writingPages = pages.filter((page) => ["exploration", "meaning"].includes(page.slug));
 const workPages = pages.filter((page) => ["cv", "projects"].includes(page.slug));
-const miscPages = pages.filter((page) => !page.data.pinned && !["cv", "projects", "exploration"].includes(page.slug));
+const miscPages = pages.filter((page) => !page.data.pinned && !["cv", "projects", "exploration", "meaning"].includes(page.slug));
 
 // Sort functions
 const sortByDate = (a: any, b: any) => {

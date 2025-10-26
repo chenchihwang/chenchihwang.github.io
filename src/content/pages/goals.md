@@ -4,7 +4,7 @@ published: 2023-08-18
 updated: 2025-06-22
 ---
 
-- [ ] become a GOAT
+- [ ] become the GOAT
 - [ ] farm maximal aura 
-- [ ] find a woman ...
+- [x] find a woman ...
 - [x] put fries in the bag

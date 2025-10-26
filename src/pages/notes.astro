@@ -11,7 +11,15 @@ const sortedNotes = notes.sort((a, b) => {
   const bDate = b.data.published;
   return Date.parse(bDate.toString()) - Date.parse(aDate.toString());
 });
-const groupedNotes = groupByDay(sortedNotes);
+
+// Split notes based on the pivot date
+const pivotDate = new Date("2025-10-25");
+const currentNotes = sortedNotes.filter((note) => new Date(note.data.published) >= pivotDate);
+const archiveNotes = sortedNotes.filter((note) => new Date(note.data.published) < pivotDate);
+
+const currentGroupedNotes = groupByDay(currentNotes);
+const archiveGroupedNotes = groupByDay(archiveNotes);
+
 function groupByDay(items: NoteProps[]): Record<string, NoteProps[]> {
   const grouped: Record<string, NoteProps[]> = {};
   items.forEach((item) => {
@@ -32,9 +40,10 @@ function groupByDay(items: NoteProps[]): Record<string, NoteProps[]> {
   </header>
   <main id="main" class="flex-grow">
     <div class="prose">
-      <dl>
+      {/* Current notes (after 2025-10-24) */}
+      <dl id="current-notes">
         {
-          Object.entries(groupedNotes).map(([date, notes]) => {
+          Object.entries(currentGroupedNotes).map(([date, notes]) => {
             return (
               <>
                 <dt id={date}>
@@ -55,8 +64,74 @@ function groupByDay(items: NoteProps[]): Record<string, NoteProps[]> {
           })
         }
       </dl>
+
+      {/* Archive button with visual separator */}
+      {archiveNotes.length > 0 && (
+        <>
+          <div class="my-8 border-t-2 border-dashed"></div>
+          <div class="text-center">
+            <p class="text-secondary italic mb-2">thoughts from a past me</p>
+            <button
+              id="show-archive-btn"
+              class="underline text-secondary hover:text-primary transition-colors"
+            >
+              earlier reflections ({archiveNotes.length})
+            </button>
+          </div>
+        </>
+      )}
+
+      {/* Archive notes (before 2025-10-24) - hidden by default */}
+      {archiveNotes.length > 0 && (
+        <>
+          <div class="my-4 border-t border-dashed"></div>
+          <dl id="archive-notes" class="hidden">
+            {
+              Object.entries(archiveGroupedNotes).map(([date, notes]) => {
+                return (
+                  <>
+                    <dt id={date} class="opacity-60">
+                      <FormattedDate date={new Date(date)} />
+                    </dt>
+                    {notes.map((note) =>
+                      note.render().then(({ Content }) => (
+                        <dd
+                          class="grid gap-y-2 [&>blockquote]:italic opacity-60"
+                          id={note.slug}
+                        >
+                          <Content />
+                        </dd>
+                      ))
+                    )}
+                  </>
+                );
+              })
+            }
+          </dl>
+        </>
+      )}
     </div>
   </main>
+
+  <script>
+    // Toggle archive visibility
+    const showArchiveBtn = document.getElementById('show-archive-btn');
+    const archiveNotes = document.getElementById('archive-notes');
+    const archiveCount = archiveNotes ? archiveNotes.querySelectorAll('dt').length : 0;
+    
+    if (showArchiveBtn && archiveNotes) {
+      showArchiveBtn.addEventListener('click', () => {
+        archiveNotes.classList.toggle('hidden');
+        
+        // Update button text
+        if (archiveNotes.classList.contains('hidden')) {
+          showArchiveBtn.textContent = `earlier reflections (${archiveCount})`;
+        } else {
+          showArchiveBtn.textContent = 'earlier reflections';
+        }
+      });
+    }
+  </script>
   <footer class="relative mt-8 border-t-2 pt-3 text-center">
     <p class="text-sm text-secondary">
       Published: <FormattedDate

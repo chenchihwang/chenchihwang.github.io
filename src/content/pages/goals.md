@@ -8,3 +8,12 @@ updated: 2025-06-22
 - [ ] farm maximal aura 
 - [x] find a woman ...
 - [x] put fries in the bag
+
+---
+
+On a more serious note:
+- [ ] get a paper in a top conference
+- [ ] get employed doing frontier work
+- [ ] do singles consistently in figure skating
+- [ ] ride black diamonds easily while skiing and snowboarding
+- [ ] cycle across the US or across eurasia 

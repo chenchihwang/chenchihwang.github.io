@@ -6,7 +6,7 @@ updated: 2025-06-22
 pinned: true
 ---
 
-currently at amazon, locked in on increasing shareholder value
+back in school, figuring out some personal issues.
 
 ---
 

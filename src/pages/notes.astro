@@ -13,7 +13,7 @@ const sortedNotes = notes.sort((a, b) => {
 });
 
 // Split notes based on the pivot date
-const pivotDate = new Date("2025-10-25");
+const pivotDate = new Date("2025-11-25");
 const currentNotes = sortedNotes.filter((note) => new Date(note.data.published) >= pivotDate);
 const archiveNotes = sortedNotes.filter((note) => new Date(note.data.published) < pivotDate);
 
@@ -40,7 +40,7 @@ function groupByDay(items: NoteProps[]): Record<string, NoteProps[]> {
   </header>
   <main id="main" class="flex-grow">
     <div class="prose">
-      {/* Current notes (after 2025-10-24) */}
+      {/* Current notes (after 2025-11-25) */}
       <dl id="current-notes">
         {
           Object.entries(currentGroupedNotes).map(([date, notes]) => {
@@ -81,7 +81,7 @@ function groupByDay(items: NoteProps[]): Record<string, NoteProps[]> {
         </>
       )}
 
-      {/* Archive notes (before 2025-10-24) - hidden by default */}
+      {/* Archive notes (before 2025-11-25) - hidden by default */}
       {archiveNotes.length > 0 && (
         <>
           <div class="my-4 border-t border-dashed"></div>

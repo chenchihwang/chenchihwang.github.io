@@ -4,6 +4,9 @@ published: 2023-08-23
 updated: 2025-06-22
 ---
 
+2026
+: [Meal Cost Calculator](https://meal-cost-calculator.vercel.app/) - Minimal webapp to help determine whether it's more mathematically optimal to eat out or cook at home based on both money, time costs, and income.
+
 2025
 : [Multilingual spoken dialogue system](https://github.com/chenchihwang/SDS) - Designed novel multilingual spoken dialogue system that is 80-92% more reactive to language alternation mid-use on eng-jp datasets.
 

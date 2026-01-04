@@ -3,6 +3,7 @@ title: meaning
 description: a life's purpose...
 published: 2025-07-06
 updated: 2025-07-06
+draft: true
 ---
 
 this might not be one of those essays with great "moral of the story" you get to put in your pocket and take with you back home. this writing might just be more of a 20 year olds musings and what he has currently ascertained to be meaningful to his life. this may or may not resonate with you, but i personally believe there is something to be learned in every person's experiences, so ill share mine, in the hopes that they can leave some positive impact on whoever may be reading.

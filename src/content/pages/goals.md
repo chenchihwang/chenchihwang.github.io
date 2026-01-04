@@ -17,3 +17,7 @@ On a more serious note:
 - [ ] do singles consistently in figure skating
 - [ ] ride black diamonds easily while skiing and snowboarding
 - [ ] cycle across the US or across eurasia 
+- [ ] build a self sustaining hydroponic aquarium
+- [ ] live in a van
+- [ ] live in a boat
+- [ ] figure out a novel solution to food waste / clean energy / etc...

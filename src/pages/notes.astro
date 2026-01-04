@@ -13,7 +13,7 @@ const sortedNotes = notes.sort((a, b) => {
 });
 
 // Split notes based on the pivot date
-const pivotDate = new Date("2025-11-25");
+const pivotDate = new Date("2026-01-01");
 const currentNotes = sortedNotes.filter((note) => new Date(note.data.published) >= pivotDate);
 const archiveNotes = sortedNotes.filter((note) => new Date(note.data.published) < pivotDate);
 

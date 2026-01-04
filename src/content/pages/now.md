@@ -6,7 +6,7 @@ updated: 2025-06-22
 pinned: true
 ---
 
-back in school, figuring out some personal issues.
+back in school, figuring out myself...
 
 ---
 

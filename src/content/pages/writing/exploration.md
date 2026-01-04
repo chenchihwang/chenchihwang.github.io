@@ -3,6 +3,7 @@ title: exploration
 description: a plan to find myself...
 published: 2024-10-18
 updated: 2024-10-18
+draft: true
 ---
 
 This is the first of a page dedicated to just plain writing. In many ways still distinctly related to me. I had a long day of chats today. Sitting back here at my computer at 11:19 PM. Fixed myself a bagel with peanut butter I stumbled next to a book about writing.

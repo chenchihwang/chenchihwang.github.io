@@ -12,7 +12,10 @@ GitHub
 : [chenchihwang](https://github.com/chenchihwang)
 
 LinkedIn
-: [chenchihwang](https://www.linkedin.com/in/chen-chi-hwang/)
+: [chen-chi-hwang](https://www.linkedin.com/in/chen-chi-hwang/)
 
 Instagram
-: [chenchihwang](https://www.instagram.com/chen.chi.hwang/)
+: [chen.chi.hwang](https://www.instagram.com/chen.chi.hwang/)
+
+Admonitions
+: [chen](https://www.admonymous.co/chen)

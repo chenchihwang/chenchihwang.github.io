@@ -25,5 +25,7 @@ On a more serious note:
 - [ ] learn how to fly a plane
 - [ ] learn horseback archery in Mongolia
 - [ ] make a documentary
+- [ ] keep bees / grow mushrooms
+- [ ] write a novella
 - [ ] learn how to sail
 - [ ] figure out a novel solution to food waste / clean energy / etc...

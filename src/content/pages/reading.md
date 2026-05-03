@@ -3,7 +3,6 @@ title: Reading
 description: My digital bookshelf
 published: 2026-03-03
 updated: 2026-03-03
-
 ---
 
 ## On-deck
@@ -20,6 +19,7 @@ updated: 2026-03-03
 - [Life Is Short](https://paulgraham.com/short.html)
 - [How to Work Hard](https://paulgraham.com/hwh.html)
 - [The Acceleration of Addictiveness](https://paulgraham.com/addictiveness.html)
+- <a href="https://www.amazon.com/Autobiography-Malcolm-Told-Alex-Haley/dp/0345350685" target="_blank" rel="noopener noreferrer">The Autobiography of Malcolm X</a>
 
 ## In-progress
 
@@ -30,4 +30,4 @@ updated: 2026-03-03
 
 2026:
 
-- 
+-

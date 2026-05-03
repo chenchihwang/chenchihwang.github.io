@@ -27,11 +27,13 @@ pinned: true
   - MMA
   - Traveling 
     - Been to:
-      - Japan + Taiwan
+      - Japan
+      - Taiwan
+      - UK
     - On the list:
       - (South) Korea, China
       - Thailand, Cambodia, Malaysia, Vietnam, Singapore, Sri Lanka
-      - UK, Ireland, Norway, Sweden, Finland, Denmark, Germany, Netherlands, Belgium, France, Switzerland, Monaco, Andorra, Spain, Portugal
+      - Ireland, Norway, Sweden, Finland, Denmark, Germany, Netherlands, Belgium, France, Switzerland, Monaco, Andorra, Spain, Portugal
       - Canada, Australia
   - Chess
   - Meeting new people

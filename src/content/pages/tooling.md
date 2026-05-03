@@ -1,6 +1,6 @@
 ---
 title: Tooling
-description: Services and tools I find useful
+description: Services and tools I find useful - maybe you will too!
 published: 2026-03-06
 updated: 2026-03-06
 ---
@@ -25,5 +25,4 @@ updated: 2026-03-06
 ---
 
 ## Plan to use:
-
  - Finance Tracking: https://actualbudget.org/

@@ -7,6 +7,7 @@ updated: 2025-06-22
 
 | Date                    | Description                                                                                 | Type |
 | ----------------------- | ------------------------------------------------------------------------------------------- | ---- |
+| <time>2026-04-20</time> | my 21st...                                                                    | Life |
 | <time>2025-05-27</time> | second first day at [Amazon](https://aws.amazon.com/lake-formation/)?                       | Work |
 | <time>2025-05-10</time> | start of first time doing cross country road trip                       | Life |
 | <time>2024-05-20</time> | always your first day at [Amazon](https://aws.amazon.com/lake-formation/)!                       | Work |

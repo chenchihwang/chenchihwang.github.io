@@ -25,6 +25,7 @@ updated: 2026-03-03
 
 - <a href="https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095" target="_blank" rel="noopener noreferrer">Sapiens</a>: A Brief History of Humankind - by Yuval Noah Harari
 - <a href="https://www.amazon.com/Salt-Fat-Acid-Heat-Mastering/dp/1476753830" target="_blank" rel="noopener noreferrer">Salt, Fat, Acid, Heat</a>: Mastering the Elements of Good Cooking - by Samin Nosrat
+- <a href="https://www.gutenberg.org/ebooks/2554" target="_blank" rel="noopener noreferrer">Crime and Punishment</a>: The struggle between good and evil -  by Fyodor Dostoyevsky
 
 ## Completed
 

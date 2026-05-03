@@ -2,11 +2,13 @@
 title: Now
 description: What I am up to now
 published: 2023-08-01
-updated: 2025-06-22
+updated: 2026-05-03
 pinned: true
 ---
 
-back in school, figuring out myself...
+back to work (in bay area, if you're around say hi, let's hang!) 
+
+in the journey of finding myself... 
 
 ---
 

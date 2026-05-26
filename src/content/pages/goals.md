@@ -28,4 +28,5 @@ On a more serious note:
 - [ ] keep bees / grow mushrooms
 - [ ] write a novella
 - [ ] learn how to sail
+- [ ] sail across the pacific / atlantic
 - [ ] figure out a novel solution to food waste / clean energy / etc...

@@ -1,8 +1,8 @@
 ---
 title: Connect
-description: Feel free to DM or email me using any one of the services listed below
+description: Feel free to DM, email, or stalk me using any one of the services listed below
 published: 2023-07-24
-updated: 2024-01-22
+updated: 2026-08-21
 ---
 
 Email
@@ -19,3 +19,9 @@ Instagram
 
 Admonitions
 : [chen](https://www.admonymous.co/chen)
+
+Goodreads
+: [chen-chi-hwang](https://www.goodreads.com/user/show/203697297-chen-chi-hwang)
+
+Letterboxd
+: [chenchih](https://letterboxd.com/chenchih/)

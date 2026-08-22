@@ -6,7 +6,7 @@ updated: 2026-05-03
 pinned: true
 ---
 
-back to work (in bay area, if you're around say hi, let's hang!) 
+back to school
 
 in the journey of finding myself... 
 

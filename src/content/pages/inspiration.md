@@ -12,3 +12,4 @@ updated: 2025-06-22
 - [Andrej Karpathy](https://karpathy.ai/)
 - [Vaclav Smil](https://vaclavsmil.com/)
 - [Yuval Noah Harari](https://www.ynharari.com/)
+- [Justin Wang](https://www.justinwang.xyz/)

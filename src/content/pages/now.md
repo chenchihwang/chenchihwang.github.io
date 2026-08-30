@@ -6,7 +6,7 @@ updated: 2026-05-03
 pinned: true
 ---
 
-back to school
+back in school
 
 in the journey of finding myself... 
 

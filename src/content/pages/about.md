@@ -13,6 +13,7 @@ pinned: true
   - Currently studying in Pittsburgh
 - [Work](/cv)
   - Previously: 
+    - Intern at [Amazon](https://aws.amazon.com/mwaa/mwaa-serverless/) 2026 (MWAA-S)
     - Intern at [Amazon](https://aws.amazon.com/lake-formation/) 2025
     - Intern at [Amazon](https://aws.amazon.com/lake-formation/) 2024
     - Code Sensei at [Code Ninjas](https://www.codeninjas.com/)
@@ -38,8 +39,3 @@ pinned: true
   - Chess
   - Meeting new people
   - Taking naps !! 
-- Connect
-  - [E-Mail](mailto:chentreehwang@gmail.com)
-  - [Instagram](https://www.instagram.com/chen.chi.hwang/)
-  - [GitHub](https://github.com/chenchihwang)
-  - [LinkedIn](https://www.linkedin.com/in/chen-chi-hwang/)

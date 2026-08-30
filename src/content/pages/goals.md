@@ -1,7 +1,7 @@
 ---
 title: Goals
 published: 2023-08-18
-updated: 2025-06-22
+updated: 2026-08-29
 ---
 
 - [ ] become the GOAT
@@ -25,6 +25,7 @@ On a more serious note:
 - [ ] learn how to fly a plane
 - [ ] learn horseback archery in Mongolia
 - [ ] make a documentary
+- [ ] grow a garden
 - [ ] keep bees / grow mushrooms
 - [ ] write a novella
 - [ ] learn how to sail

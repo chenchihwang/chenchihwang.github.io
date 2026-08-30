@@ -2,11 +2,14 @@
 title: Connect
 description: Feel free to DM, email, or stalk me using any one of the services listed below
 published: 2023-07-24
-updated: 2026-08-21
+updated: 2026-08-29
 ---
 
 Email
 : chentreehwang@gmail.com
+
+Substack
+: [cchwang](https://substack.com/@cchwang?utm_source=share&utm_medium=android&r=3o991k)
 
 GitHub
 : [chenchihwang](https://github.com/chenchihwang)
